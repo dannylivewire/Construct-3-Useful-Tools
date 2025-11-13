@@ -1,0 +1,11 @@
+{
+	"name": "World",
+	"events": [
+		{
+			"eventType": "script",
+			"language": "javascript",
+			"script": []
+		}
+	],
+	"sid": 535020015374754
+}
