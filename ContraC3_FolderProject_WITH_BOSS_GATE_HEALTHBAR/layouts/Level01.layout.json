@@ -1,0 +1,51 @@
+{
+  "name": "Level01",
+  "note": "Reference scaffold for co-op starting positions and layer names.",
+  "layers": [
+    {
+      "name": "UI",
+      "parallax": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Main",
+      "parallax": [
+        100,
+        100
+      ]
+    },
+    {
+      "name": "Mid",
+      "parallax": [
+        60,
+        60
+      ]
+    },
+    {
+      "name": "Far",
+      "parallax": [
+        30,
+        30
+      ]
+    }
+  ],
+  "placements": {
+    "Player": {
+      "x": 256,
+      "y": 320,
+      "layer": "Main"
+    },
+    "Player2": {
+      "x": 300,
+      "y": 320,
+      "layer": "Main"
+    },
+    "CamAnchor": {
+      "x": 278,
+      "y": 300,
+      "layer": "Main"
+    }
+  }
+}
