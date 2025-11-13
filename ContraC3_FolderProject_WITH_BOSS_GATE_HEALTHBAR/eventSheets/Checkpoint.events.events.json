@@ -1,0 +1,5 @@
+{
+  "type": "c3-event-clipboard",
+  "version": 1,
+  "text": "// === CHECKPOINT FLAG ===\n// Object: CheckpointFlag (Sprite). On touch, set global checkpoint and play a simple 'capture' anim.\n\nOn collision Player with CheckpointFlag\n\u2192 Set CheckpointX = CheckpointFlag.X\n\u2192 Set CheckpointY = CheckpointFlag.Y\n\u2192 CheckpointFlag: Set animation frame 1 (optional 'captured' frame)\n\u2192 (Optional) Audio: play chime\n\nOn collision Player2 with CheckpointFlag\n\u2192 Set CheckpointX = CheckpointFlag.X\n\u2192 Set CheckpointY = CheckpointFlag.Y\n\u2192 CheckpointFlag: Set animation frame 1"
+}

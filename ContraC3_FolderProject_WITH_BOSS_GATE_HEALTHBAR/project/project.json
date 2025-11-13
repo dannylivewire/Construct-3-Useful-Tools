@@ -1,0 +1,116 @@
+{
+  "projectFormatVersion": 1,
+  "is-c3-project": true,
+  "name": "ContraC3",
+  "type": "project",
+  "runtime": "c3",
+  "fileStructure": [
+    {
+      "type": "folder",
+      "name": "files",
+      "items": [
+        {
+          "type": "folder",
+          "name": "assets",
+          "items": [
+            {
+              "type": "file",
+              "name": "player_idle.png"
+            },
+            {
+              "type": "file",
+              "name": "player_run1.png"
+            },
+            {
+              "type": "file",
+              "name": "player_run2.png"
+            },
+            {
+              "type": "file",
+              "name": "player_jump.png"
+            },
+            {
+              "type": "file",
+              "name": "player_crouch.png"
+            },
+            {
+              "type": "file",
+              "name": "player_shoot.png"
+            },
+            {
+              "type": "file",
+              "name": "enemy_basic.png"
+            },
+            {
+              "type": "file",
+              "name": "bullet.png"
+            },
+            {
+              "type": "file",
+              "name": "explosion.png"
+            },
+            {
+              "type": "file",
+              "name": "tileset.png"
+            },
+            {
+              "type": "file",
+              "name": "bg_parallax.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "layouts",
+      "items": [
+        {
+          "type": "file",
+          "name": "Level01.layout.json"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "eventSheets",
+      "items": [
+        {
+          "type": "file",
+          "name": "Main.events.json"
+        },
+        {
+          "type": "file",
+          "name": "EnemyAI.events.json"
+        },
+        {
+          "type": "file",
+          "name": "World.events.json"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "objectTypes",
+      "items": [
+        {
+          "type": "file",
+          "name": "Player.object.json"
+        },
+        {
+          "type": "file",
+          "name": "Enemy.object.json"
+        },
+        {
+          "type": "file",
+          "name": "Bullet.object.json"
+        },
+        {
+          "type": "file",
+          "name": "Explosion.object.json"
+        }
+      ]
+    }
+  ],
+  "mainProjectFile": "project/project.json"
+}
