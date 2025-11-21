@@ -1,0 +1,20 @@
+{
+    "scene" :
+        [{
+        "dialogues" :
+            [{
+                "char" : "",
+                "line" : ""
+            }]
+        }, {
+        "dialogues" :
+                [{
+                    "char" : "",
+                    "line" : ""
+                },
+                {
+                    "char" : "",
+                    "line" : ""
+                }]
+    }]
+}
