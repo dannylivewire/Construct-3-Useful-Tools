@@ -1,5 +1,0 @@
-{
-  "type": "c3-event-clipboard",
-  "version": 1,
-  "text": "// === BOSS GATE TRIGGER ===\n// Objects: BossGate (Sprite, invisible box), Boss01, BossCore\n// Variables: BossActive (global or local) = 0 initially\n// Place BossGate where you want the fight to begin (e.g., corridor entrance).\n\nOn start of layout\n\u2192 BossGate: Set visible False\n\u2192 System: Set global variable BossActive to 0\n\u2192 Boss01: Set enabled False\n\u2192 BossCore: Set enabled False\n\n// Trigger when either player crosses the gate\nOn collision Player with BossGate\nSystem: BossActive = 0\n\u2192 System: Set BossActive to 1\n\u2192 Boss01: Set enabled True\n\u2192 BossCore: Set enabled True\n\nOn collision Player2 with BossGate\nSystem: BossActive = 0\n\u2192 System: Set BossActive to 1\n\u2192 Boss01: Set enabled True\n\u2192 BossCore: Set enabled True"
-}
