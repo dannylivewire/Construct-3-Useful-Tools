@@ -1,1 +1,0 @@
-Add CamAnchor with ScrollTo; paste Main_Coop and World_Coop into event sheets; see Level01.layout.json.
